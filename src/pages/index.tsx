@@ -8,8 +8,6 @@ import { api } from "@/utils/api";
 import { Button } from "@/components/ui/button";
 
 const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
-
   return (
     <>
       <Head>
